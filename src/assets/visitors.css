@@ -1,0 +1,15 @@
+.visitor-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:20px;
+  border-bottom: solid 1px grey;
+}
+
+.visitor-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}

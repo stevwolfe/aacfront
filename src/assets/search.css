@@ -1,0 +1,103 @@
+.toolbar-search header.MuiAppBar-positionStatic{
+  z-index: 0 !important;
+}
+
+.MuiCheckbox-colorSecondary.Mui-checked {
+  color: #A663A6 !important;
+}
+
+.MuiCheckbox-colorPrimary.Mui-checked {
+  color: #A663A6 !important;
+}
+
+
+.match-card {
+  border: 0;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.35);
+  box-sizing: border-box;
+  float: left;
+  height: 350px;
+  margin: 20px 9px 20px;
+  padding: 0;
+  position: relative;
+  width: 280px;
+}
+.match-card .image {
+ position: relative
+}
+
+span.MuiTypography-root {
+  overflow: hidden;
+}
+
+.match-card .image .online {
+  width: 34px;
+  position: absolute;
+  z-index: 0;
+  right: 15px;
+  top: 15px;
+}
+
+.homesearch {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.active-page {
+  background:   #E8E8E8 !important
+}
+
+.match-card-image{
+/*  height: 100%;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);*/
+  height: 270px;
+  width: 280px
+}
+
+.details-match {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.match-card .info {
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0 0 3px 3px;
+  bottom: 15px;
+  box-sizing: border-box;
+  height: 70px;
+  justify-content: space-between;
+  padding: 0 0 0 16px;
+  position: absolute;
+  width: 100%;
+  display: flex;
+}
+
+.no-results {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-results img{
+  width: 120px;
+  margin: 50px 10px 35px 10px;
+}
+
+.page-link {
+  color: #A663A6 !important;
+}
+.winker {
+  margin-right: 15px;
+  border-left: solid 2px grey;
+  padding-left: 15px;
+  cursor: pointer;
+}

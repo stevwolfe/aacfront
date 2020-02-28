@@ -1,0 +1,363 @@
+#coaching-box {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  display: inline-block;
+  perspective: 1000;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 350px;
+}
+
+/*#coaching-box.corncob .message {
+  -webkit-animation: corncob .5s ease 1s forwards;
+   animation: corncob .5s ease 1s forwards;
+   backface-visibility: hidden;
+  transform: rotateX(90deg);
+}
+
+#coaching-box.corncob .message {
+  -webkit-animation: corncob 1s ease 1s forwards;
+  -webkit-backface-visiblity: hidden;
+  -webkit-transform: rotateX(90deg);
+  animation: corncob .5s ease 1s forwards;
+  backface-visibility: hidden;
+  transform: rotateX(90deg);
+}*/
+
+#coaching-box .message {
+  justify-content: space-around;
+  border-bottom: 4px solid #f9aa21;
+  color: white;
+  background: -webkit-linear-gradient(top,#f9aa21,#f38713);
+  box-sizing: border-box;
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-style: italic;
+  height: 54px;
+  min-width: 125px;
+  padding: 5px 10px;
+  position: relative;
+  text-align: center;
+  width: inherit;
+  z-index: 1;
+}
+
+.logo-nav {
+  height: 35px;
+  padding: 0;
+  margin-top: 6px;
+  margin-bottom: 5px;
+  margin-left: 5px !important;;
+}
+
+
+/*#coaching-box .message {
+  background: #f9aa21;
+  background: -webkit-linear-gradient(top,#f9aa21,#f38713);
+  background: linear-gradient(top,#f9aa21,#f38713);
+  border-bottom: 4px solid #f9aa21;
+  color: #61132e;
+}
+*/
+#coaching-box .message button {
+    background: rgba(0,0,0,.3);
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+    font-size: 12px;
+    font-style: 400;
+    height: 38px;
+    margin-top: 1px;
+    padding: 5px 0;
+    text-align: center;
+    width: 144px;
+}
+
+
+#coaching-box .content {
+  background: #d6e5eb;
+  border-bottom: none;
+  color: #333;
+  cursor: default;
+  font-size: 14px;
+  height: 0;
+  left: 0;
+  line-height: 16px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  top: -4px;
+  -moz-transition: height .3s ease-in-out;
+  -o-transition: height .3s ease-in-out;
+  -webkit-transition: height .3s ease-in-out;
+  transition: height .3s ease-in-out;
+  white-space: normal;
+  width: inherit;
+}
+
+.container {
+  width: 100%;
+}
+
+.dropdown-profile {
+  position: absolute;
+  right: 360px;
+  z-index: 1;
+  top: 50px;
+}
+
+.flex-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.img-profile-blank {
+  right: 120px;
+  position: absolute;
+  height: 20px !important;
+  width: 20px !important;
+  top: 20px;
+}
+
+.list-menu-sm {
+  display: flex;
+  justify-content: center;
+  height: 30px;
+  align-items: center;
+  border-bottom: grey solid 1px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.list-menu-sm:hover{
+  background: #F5F5F5
+}
+
+.list-profile {
+  background: black;
+  padding: 5px 10px;
+  margin-top: 3px;
+  border: solid 2px black;
+  border-top: none;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: white;
+}
+
+.list-profile a {
+  text-decoration: none;
+}
+
+.list-profile li {
+  padding:6px 5px;
+  border-bottom: 1px solid grey;
+  color: grey;
+}
+
+.list-profile li:hover {
+  background: white;
+}
+
+
+
+.membership-button {
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.membership-button a {
+  padding: 0px;
+}
+
+.membership-button a h5 {
+  margin-right: 10px;
+  margin-bottom: 1px;
+  margin-top: 6px;
+}
+
+
+.membership-button a h4 {
+  margin-top: 2px;
+  margin-bottom: 0px;
+  margin-right: 10px;
+}
+
+.MuiPaper-root .border {
+  color: grey;
+  border-bottom: solid 1px grey;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.nav-flex {
+  max-height: 50px
+}
+
+.profile-avatar .arrow {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+}
+
+
+.profile-avatar img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 5px;
+}
+
+.profile-nav {
+  padding-top: 5px;
+  padding-left: 0px;
+  cursor: pointer;
+}
+
+
+
+.small-nav {
+  display: flex;
+  align-items: center
+}
+
+.notifs-tabs span{
+  right: -18px !important;
+  top: -20px;
+}
+
+.upgrade-membership {
+  display: flex;
+}
+
+.upgrade-membership .message {
+  display: flex;
+  flex-direction: column;
+}
+
+.glyphicon-chat {
+  bottom: 35px;
+  position: absolute;
+  left: 40%
+}
+
+.online-dot {
+  display: flex;
+  alignItems: center;
+  top: -10px;
+  position: absolute;
+  left: 37%
+}
+
+
+@media screen and (min-width: 868px) {
+  .small-nav {
+    display: none
+  }
+
+  .right-badge span {
+    right: -11px !important;
+  }
+}
+
+
+@media screen and (max-width: 520px) {
+
+  .glyphicon-chat {
+    bottom: 35px;
+    position: absolute;
+    left: -25%
+  }
+
+  .online-dot {
+    left: -25%
+  }
+
+  .MuiBadge-root {
+    margin-right: 10px;
+  }
+
+  .nav-xl {
+    display: none
+  }
+
+  #coaching-box {
+    width: 95px
+  }
+
+  .upgrade-letters {
+    display: none;
+  }
+
+  #coaching-box .message button {
+    width: 90px;
+  }
+
+  .MuiBadge-badge {
+    right: -18px !important;
+    top: 9px !important;
+  }
+  .menu-badge span {
+    right: -11px !important;
+  }
+}
+
+.toggle-chat {
+  position: absolute;
+  top: 24px;
+  z-index: 10;
+  left: -15%;
+}
+
+
+
+@media screen and (min-width: 520px) and (max-width: 766px) {
+  .glyphicon-chat {
+    bottom: 35px;
+    position: absolute;
+    left: -25%
+  }
+
+  .online-dot {
+    left: -25%
+  }
+}
+
+
+@media screen and (min-width: 520px) and (max-width: 868px) {
+  .nav-xl {
+    display: none
+  }
+
+  #coaching-box {
+    width: 210px;
+  }
+  .MuiBadge-badge {
+    right: -18px !important;
+    top: 9px !important;
+  }
+  .MuiBadge-root {
+    margin-right: 10px;
+  }
+
+  .menu-badge span {
+    right: -11px !important
+  }
+
+  .list-menu-sm span {
+    position: relative;
+  }
+}
+

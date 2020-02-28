@@ -1,0 +1,133 @@
+.boxes-infos {
+  padding: 20px;
+  height: 450px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  border: solid 2px #A663A6;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 #A663A6, 0 2px 10px 0 #A663A6;
+}
+
+.boxes-infos-horizontal {
+  padding: 20px;
+  background: white;
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 2px #A663A6;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px 0 #A663A6, 0 2px 10px 0 #A663A6;
+}
+
+.container-photos {
+  padding: 30px;
+  margin-top:115px;
+  border-radius: 5px;
+  background: white;
+}
+
+.dropzone {
+  border: 2px dotted grey;
+  width: 120px;
+  height: 125px;
+  display: flex;
+  justify-content:center;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+}
+
+.edit-info h3 {
+  color: #A663A6;
+}
+
+.edit-info h4 {
+  color: #A663A6;
+}
+
+.flex-infos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.flex-box-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 370px;
+  margin-bottom: 30px;
+}
+
+.flex-infos-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center
+}
+
+
+.flex-infos-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-sought {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-import-photo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.float-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.MuiFormControl-root label {
+  top: -7px !important;
+}
+
+label {
+  font-size: 16px !important;
+  width: 100%;
+}
+
+.photos-infos {
+  width: 120px;
+  height: 125px;
+  object-fit: cover;
+  margin: 25px;
+}
+
+.photo-and-delete {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photos-col {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo-btns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.title-box-infos {
+  display: flex;
+  align-items: center;
+}
+
+
+.title-box-infos img {
+  height: 32px;
+  margin-right: 10px;
+}
+

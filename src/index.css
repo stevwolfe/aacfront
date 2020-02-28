@@ -1,0 +1,184 @@
+ul {list-style: none;}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #f8f8f8;
+/*  overflow: hidden;*/
+}
+
+
+.convo-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 88px;
+  bottom: 0px
+}
+
+.convo-card img {
+  height: 60px;
+  width: 60px;
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.btn-default {
+  color: gray;
+  background-color: transparent;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #A663A6;
+  border-color: transparent
+}
+
+.btn-primary:hover {
+  background-color: #2D154F !important;
+  border-color: transparent
+
+}
+
+.list-chat-options {
+  padding: 5px 10px;
+  margin-top: 3px;
+  border-top: none;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  color: white;
+  background: #E3E3E3;
+}
+
+.list-chat-options a {
+  text-decoration: none;
+}
+
+.list-chat-options li {
+  padding:6px 5px;
+  border-bottom: 1px solid grey;
+  color: grey;
+}
+
+.list-chat-options li:hover {
+  background: #f0f0f0;
+}
+
+
+.navbar {
+  background: black;
+  margin-bottom: 0;
+}
+
+.navbar-brand:hover {
+  background: #a6a6a6;
+}
+
+.messages_list_header_title_input:focus {
+  outline: 0;
+}
+
+.profile_button:focus,
+.edit_conversation_button:focus {
+  outline: 0 !important;
+  background-color: white;
+}
+
+.add_conversation_button:focus {
+  outline: 0 !important;
+  background-color: #5FB760;
+}
+
+.send_message_button:focus {
+  outline: 0 !important;
+  border-color: transparent;
+  background-color: #377BB5;
+}
+
+.conversation_card.active {
+  background-color: #eee;
+}
+
+.user_message .message_content {
+  text-align: -webkit-right;
+  float: right;
+}
+
+.system_message {
+  text-align: -webkit-center;
+}
+
+.user_message > .message_content {
+  background-color: #A663A6;
+  color: white;
+}
+
+.foreign_message > .message_content {
+  background-color: #ddd;
+  color: black;
+}
+
+.greeting {
+  left: -380px;
+  position: absolute;
+  right: 420px;
+  transition: all .4s ease-out;
+}
+
+.greeting.active {
+  left: 20px;
+  position: absolute;
+  right: 20px;
+  transition: all .4s ease-out;
+}
+
+.login {
+  left: 420px;
+  position: absolute;
+  right: -380px;
+  transition: all .4s ease-out;
+}
+
+.login.active {
+  left: 20px;
+  position: absolute;
+  right: 20px;
+  transition: all .4s ease-out;
+}
+
+.pic-and-name {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 15%;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  #messagesListSm{
+    display: none
+  }
+
+  #messagesList {
+    display: block
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+  #messages_list {
+    max-height: 500px;
+  }
+
+  #messagesList {
+    display: none
+  }
+
+}
+
